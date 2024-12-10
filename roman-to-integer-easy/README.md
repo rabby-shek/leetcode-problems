@@ -27,6 +27,12 @@ This solution uses the **Greedy Algorithm** to process the Roman numeral string.
 
 This approach works because Roman numerals follow strict rules for subtraction and addition, making the greedy method optimal for this problem.
 
+### Time Complexity:
+- **O(n)**: The algorithm processes each character in the Roman numeral string exactly once. Here, **n** is the length of the input string.
+
+### Space Complexity:
+- **O(1)**: The space complexity is constant because we are using a fixed-size lookup table for Roman numerals and a few variables to track the result and loop index. No additional data structures are used that grow with the input size.
+
 ---
 
 ## Solution
